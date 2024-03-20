@@ -11,7 +11,7 @@
 - Save your QR codes for convenient sharing.
 - Switch between light and dark modes to set the mood for your QR code journey.
 
-🚀 Ready to explore the QR Universe? Download the app now and let the adventure begin!
+<h3>🚀 Ready to explore the QR Universe? Download the app now and let the adventure begin!</h3>
 </p>
 
 # Screenshots
