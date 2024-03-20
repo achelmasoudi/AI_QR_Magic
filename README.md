@@ -1,7 +1,7 @@
 # AI QR Magic - Generate & Scan
 <div style="text-align: center;">
   <a href="https://play.google.com/store/apps/details?id=your.app.package">
-    <img src="https://freelogopng.com/images/all_img/1664285914google-play-logo-png.png" alt="Google Play Store" style="width: 100px; margin-right: 10px;" />
+    <img src="https://freelogopng.com/images/all_img/1664285914google-play-logo-png.png" alt="Google Play Store" style="width: 50px; margin-right: 50px;" />
   </a>
   <a href="https://play.google.com/store/apps/details?id=com.aimagic.aiqrmagic" target="_blank" >Download on Google Play</a>
 </div>
