@@ -1,5 +1,16 @@
-# AI QR Magic
+# AI QR Magic - Generate & Scan
 ![AI QR Magic - Feature graphic](https://github.com/achelmasoudi/AI_QR_Magic/assets/154275618/44e7c0ae-3503-4051-ac8e-8b2f359af00d)
+
+🌟 Welcome to AI QR Magic, where every code tells a unique story.
+
+- Generate, Customize, Scan, Save, and Sownload QR codes effortlessly.
+- Create multiple QR code types for various adventures.
+- Customize your codes with a splash of colors.
+- Easily scan QR codes from your camera or gallery.
+- Save your QR codes for convenient sharing.
+- Switch between light and dark modes to set the mood for your QR code journey.
+
+🚀 Ready to explore the QR Universe? Download the app now and let the adventure begin!
 
 # Screenshots
 <div style="margin: 15;" >
