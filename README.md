@@ -3,6 +3,6 @@
 
 # Screenshots
 <div style="text-align: center;" >
-  <img src="https://github.com/achelmasoudi/AI_QR_Magic/assets/154275618/58b1874a-6b0a-4749-aed6-a1bec81f716b" width="250" />
-  <img src="https://github.com/achelmasoudi/AI_QR_Magic/assets/154275618/c0034884-a949-4473-a91d-480403f867ab" width="250"/>
+  <img src="https://github.com/achelmasoudi/AI_QR_Magic/assets/154275618/58b1874a-6b0a-4749-aed6-a1bec81f716b" width="270" />
+  <img src="https://github.com/achelmasoudi/AI_QR_Magic/assets/154275618/c0034884-a949-4473-a91d-480403f867ab" width="270"/>
 </div>  
