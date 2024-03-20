@@ -1,2 +1,3 @@
 # AI QR Magic
-![AIQRMagic_2](https://github.com/achelmasoudi/AI_QR_Magic/assets/154275618/2b72a7be-270b-47d7-a7ae-eac70f8e5b3a)
+![AI QR Magic - Feature graphic](https://github.com/achelmasoudi/AI_QR_Magic/assets/154275618/44e7c0ae-3503-4051-ac8e-8b2f359af00d)
+# Screenshots
