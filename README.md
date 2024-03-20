@@ -5,6 +5,7 @@
   </a>
   <a href="https://play.google.com/store/apps/details?id=com.aimagic.aiqrmagic">Download on Google Play</a>
 </div>
+
 ![AI QR Magic - Feature graphic](https://github.com/achelmasoudi/AI_QR_Magic/assets/154275618/44e7c0ae-3503-4051-ac8e-8b2f359af00d)
 
 <p style="text-align: center; size">
