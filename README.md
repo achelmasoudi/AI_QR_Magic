@@ -3,7 +3,7 @@
   <a href="https://play.google.com/store/apps/details?id=your.app.package">
     <img src="https://freelogopng.com/images/all_img/1664285914google-play-logo-png.png" alt="Google Play Store" style="width: 100px; margin-right: 10px;" />
   </a>
-  <a href="https://play.google.com/store/apps/details?id=com.aimagic.aiqrmagic">Download on Google Play</a>
+  <a href="https://play.google.com/store/apps/details?id=com.aimagic.aiqrmagic" target="_blank">Download on Google Play</a>
 </div>
 
 ![AI QR Magic - Feature graphic](https://github.com/achelmasoudi/AI_QR_Magic/assets/154275618/44e7c0ae-3503-4051-ac8e-8b2f359af00d)
