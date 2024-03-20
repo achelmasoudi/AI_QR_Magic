@@ -1,0 +1,325 @@
+<resources>
+    <string name="app_name">AI QR Magic PRO</string>
+
+
+    <!--    For The AutoComplete Text View ( Wireless Security Types)-->
+    <string-array name="wireless_security_types">
+        <item>Aucun</item>
+        <item>WEP</item>
+        <item>WPA</item>
+        <item>WPA2</item>
+    </string-array>
+
+
+
+    <!-- Menu --> -------------------------------------------------------------------------------------------------------------
+    <!-- BottomNavigation Menu --> ---------------------------------------------------------------------
+    <string name="Generate">Générez</string>
+    <string name="Scan">Scannez</string>
+    <string name="Saved">Enregistré</string>
+    <string name="Settings">Paramètres</string>
+
+    <!-- SavedFragment Menu --> ---------------------------------------------------------------------
+    <string name="Download">Téléchargez</string>
+    <string name="Share">Partagez</string>
+    <string name="Delete">Supprimez</string>
+
+
+
+
+    <!-- Fragments --> -------------------------------------------------------------------------------------------------------------
+    <!-- Generate Fragment --> ---------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="GenerateYourWebSite">Générez votre Site Web</string>
+    <string name="GenerateYourWiFi">Générez votre WiFi</string>
+    <string name="GenerateYourContact">Générez votre Contact</string>
+    <string name="GenerateYourLocation">Generate votre Localisation</string>
+    <string name="GenerateYourEmail">Générez votre Email</string>
+    <string name="GenerateYourInstagramaccount">Générez votre compte Instagram</string>
+    <string name="GenerateYourYoutubeaccount">Générez votre compte Youtube</string>
+    <string name="GenerateYourPlayStoreApplication">Générez votre application Play Store</string>
+    <string name="GenerateYourLinkedinaccount">Générez votre compte Linkedin</string>
+    <string name="GenerateYourXaccount">Générez votre compte X</string>
+    <!-- XML Code -->
+    <string name="AIQRMagicGenerate_toolbarTitle">AI QR Magic PRO - Générez</string>
+    <string name="GenerateyourownQRandShare">Générez votre propre QR et Partagez</string>
+    <string name="Website">Site Web</string>
+    <string name="Location">Localisation</string>
+
+
+    <!-- Saved Fragment --> ------------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="Generated">Généré</string>
+    <string name="Scanned">Scanné</string>
+    <!-- XML Code -->
+    <string name="AIQRMagicSaved_toolbarTitle">AI QR Magic PRO - Enregistré</string>
+
+
+    <!-- Scan Fragment --> -------------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="FailedtoreadtheQRcodefromthegallery">Échoué à lire le code QR de la galerie</string>
+    <string name="notsupportingthisbarcode">Notre application ne supporte pas encore ce type de code-barres.\nCliquez sur \' Rapportez un problème \' dans Paramètres pour nous faire part de ce problème.\nNous vous remercions de votre compréhension.</string>
+
+
+    <!-- Settings Fragment --> ---------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="Reviewfailedtostart">L\'évaluation n\'a pas pu démarrer</string>
+    <string name="Ratingiscompleted">L\'évaluation est terminé</string>
+    <string name="recommendationMessage">Découvrez l\'application AI QR Magic PRO !\n\nC\'est une application fantastique pour générer, personnaliser, scanner et télécharger des codes QR. Téléchargez-la maintenant et simplifiez vos besoins en QR code.</string>
+    <string name="Suggestions">AI QR Magic PRO - Suggestions</string>
+    <string name="emailMessageSuggestions">Bonjour,\n\nJ\'ai quelques suggestions pour votre application:\n\n</string>
+    <string name="ReportingIssue">AI QR Magic PRO - Rapporter un Problème</string>
+    <string name="emailMessageReportingIssue">Bonjour,\n\nJ\'ai rencontré le problème suivant avec votre application:\n\n</string>
+    <!-- XML Code -->
+    <string name="AIQRMagicSettings_toolbarTitle">AI QR Magic PRO - Paramètres</string>
+    <string name="RemoveAds">Supprimez les publicités</string>
+    <string name="Language">Langue</string>
+    <string name="English">Anglais</string>
+    <string name="Applicationmode">Mode d\'application</string>
+    <string name="Scannersound">Son du scanner</string>
+    <string name="Scannervibrate">Le Scanner vibre</string>
+    <string name="Rateourapplication">Évaluez notre application</string>
+    <string name="Recommendourapplication">Recommandez notre application</string>
+    <string name="Giveusyoursuggestionsandcomments">Faites-nous part de vos suggestions et de vos commentaires</string>
+    <string name="Reportanissue">Rapportez un problème</string>
+    <string name="Applicationlanguage">Langue d\'application</string>
+    <string name="Turkish">Turc</string>
+    <string name="French">Français</string>
+    <string name="Arabic">Arabe</string>
+    <string name="Light">Clair</string>
+    <string name="Dark">Sombre</string>
+
+
+
+
+    <!-- Fragments Of TabLayout --> -------------------------------------------------------------------------------------------------------------
+    <!-- Generated Fragment and Scanned Fragment --> --------------------------------------------------------------------
+    <!-- Xml Code -->
+    <string name="Nosaveddatayet">Aucune donnée enregistrée pour l\'instant</string>
+
+
+
+
+    <!-- GeneratedFragment Adapter and ScannedFragment Adapter--> -------------------------------------------------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="DELETE">SUPPRIMEZ</string>
+    <string name="Areyousureyouwanttodelete">Etes-vous sûr que vous voulez supprimer!</string>
+    <string name="Cancel">Annulez</string>
+    <string name="Successfullydeleted">Supprimé avec succès</string>
+
+
+
+
+    <!-- Generate Contact --> ----------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="PleaseenteryourFullNamePhoneNumber">Veuillez entrer votre nom complet et votre numéro de téléphone !</string>
+    <string name="EnterYourFullName">Entrer votre nom complet</string>
+    <string name="EnterYourPhoneNumber">Entrer votre numéro de téléphone</string>
+    <string name="PleaseenteryourFullName">Veuillez entrer votre nom complet !</string>
+    <string name="PleaseenteryourPhoneNumber">Veuillez enter votre numéro de téléphone !</string>
+    <string name="PleaseenteravalidPhoneNumber">Veuillez entrer un numéro de téléphone valide</string>
+    <string name="Contact">Contact</string>
+    <string name="Savedsuccessfully">Enregistré avec succès</string>
+    <string name="ShareQrCodevia">Partagez le code QR via</string>
+    <string name="Pleaseprovidetherequiredpermissions">Veuillez fournir les autorisations nécessaires</string>
+    <string name="Downloadedsuccessfully">Téléchargé avec succès</string>
+    <!-- Xml Code -->
+    <string name="GenerateContact_toolbarTitle">Générez - Contact</string>
+    <string name="FullName_edittextHint">Nom et Prénom</string>
+    <string name="Phone_edittextHint">Numéro de téléphone</string>
+    <string name="Generate_btn">Générez</string>
+    <string name="Save_btn">Enregistrez</string>
+    <string name="Saved_btn">Enregistré</string>
+    <string name="Share_btn">Partagez</string>
+    <string name="Download_btn">Téléchargez</string>
+    <string name="Custom_btn">Personnalisez</string>
+    <string name="CustomyourQrCode">Personnalisez Votre Code QR</string>
+    <string name="Customcode">Code personnalisé</string>
+    <string name="Custombackground">Arrière-plan personnalisé</string>
+
+    <!-- Generate Email --> ----------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="PleaseenteryourEmail">Veuillez entrer votre Email !</string>
+    <string name="EnterYourEmail">Entrer votre Email</string>
+    <string name="PleaseenteravalidEmail">Veuillez entrer un Email valide</string>
+    <string name="Email">Email</string>
+    <!-- XML Code -->
+    <string name="GenerateEmail_toolbarTitle">Générez - Email</string>
+    <string name="Subject">Sujet</string>
+    <string name="Body">Corps</string>
+
+    <!-- Generate Instagram --> ----------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="PleaseenteryourUsername">Veuillez entrer votre Nom d\'utilisateur !</string>
+    <string name="EnterYourUsername">Entrer votre Nom d\'utilisateur</string>
+    <string name="Instagram">Instagram</string>
+    <!-- XML Code -->
+    <string name="GenerateInstagram_toolbarTitle">Générez - Instagram</string>
+    <string name="Username_hint">Nom d\'utilisateur</string>
+
+    <!-- Generate Linkedin --> ----------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="Linkedin">Linkedin</string>
+    <!-- XML Code -->
+    <string name="GenerateLinkedin_toolbarTitle">Générez - Linkedin</string>
+
+    <!-- Generate Location --> ----------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="Youselectedthislocation">Vous avez sélectionné cette localisation!</string>
+    <string name="PleaseentertheLatitudeandLongitude">Veuillez entrer votre Latitude et Longitude !</string>
+    <string name="EntertheLatitude">Enter Latitude</string>
+    <string name="EntertheLongitude">Enter Longitude</string>
+    <string name="PleaseentertheLatitude">Veuillez entrer Latitude !</string>
+    <string name="PleaseentertheLongitude">Veuillez entrer Longitude !</string>
+    <string name="Geo">Géo</string>
+    <!-- XML Code -->
+    <string name="GenerateLocation_toolbarTitle">Générez - Localisation</string>
+    <string name="Latitude">Latitude</string>
+    <string name="Longitude">Longitude</string>
+
+    <!-- Generate Play Store --> ----------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="PleaseenteryourLink">Veuillez entrer votre Lien !</string>
+    <string name="EnterYourLink">Entrer votre Lien</string>
+    <string name="YoumustputhttpsatthefirstofyourURL">Vous devez mettre ( https:// ) au début de votre URL !</string>
+    <string name="PuthttpsatthefirstofyourURL">Mettez ( https:// ) au début de votre URL</string>
+    <string name="PleaseenteravalidLink">Veuillez entrer un Lien valide</string>
+    <string name="PlayStore">Play Store</string>
+    <!-- XML Code -->
+    <string name="GeneratePlayStore_toolbarTitle">Générez - Play Store</string>
+    <string name="Link">Lien</string>
+
+    <!-- Generate Website --> ----------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="YoumustputhttpsorhttpatthefirstofyourURL">Vous devez mettre ( https:// ) ou ( http:// ) au début de votre URL !</string>
+    <string name="PuthttpsorhttpatthefirstofyourURL">Mettez ( https:// ) ou ( http:// ) au début de votre URL</string>
+    <!-- XML Code -->
+    <string name="GenerateWebsite_toolbarTitle">Générez - Site Web</string>
+
+    <!-- Generate Wifi --> ----------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="PleaseenteryourNetworkname">Veuillez entrer le nom de votre réseau !</string>
+    <string name="EnterYourNetworkname">Entrer le nom de votre réseau</string>
+    <string name="NoPassword">Aucun mot de passe</string>
+    <string name="PleaseenteryourNetworkNameandPassword">Veuillez entrer le nom de votre Réseau et votre Mot de Passe!</string>
+    <string name="EnterYourPassword">Entrer votre Mot de Passe</string>
+    <string name="PleaseenteryourPassword">Veuillez entrer votre Mot de Passe !</string>
+    <string name="WiFi">Wi-Fi</string>
+    <!-- XML Code -->
+    <string name="GenerateWiFi_toolbarTitle">Générez - WiFi</string>
+    <string name="SSID_Networkname">SSID / Nom de Réseau</string>
+    <string name="WirelessSecurity">Sécurité Sans Fil</string>
+    <string name="Password">Mot de Passe</string>
+
+    <!-- Generate X --> ----------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="X">X</string>
+    <!-- XML Code -->
+    <string name="GenerateX_toolbarTitle">Générez - X</string>
+
+    <!-- Generate Youtube --> ----------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="Youtube">Youtube</string>
+    <!-- XML Code -->
+    <string name="GenerateYoutube_toolbarTitle">Générez - Youtube</string>
+
+
+
+
+    <!-- Scanner Types --> -----------------------------------------------------------------------------------------------------------
+    <!-- In App Browser --> ------------------------------------------------------------------------
+    <!-- XML Code -->
+    <string name="InAppBrowser">In-App Navigateur</string>
+
+    <!-- Scanned Contact --> -----------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="FullName">Nom et Prénom </string>
+    <string name="PhoneNumber">Numéro de téléphone </string>
+    <string name="PermissiondeniedCannotaddcontact">Permission refusée. Impossible d\'ajouter un contact.</string>
+    <string name="PermissiondeniedCannotmakeaphonecall">Permission refusée. Impossible de passer un appel téléphonique .</string>
+    <string name="Failedtoaddcontacttophone">Échec de l\'ajout du contact au téléphone</string>
+    <string name="CopiedText">Texte Copié</string>
+    <string name="Copiedsuccessfully">Copié avec succès</string>
+    <string name="Failedtocallthisnumber">Échec d’appeler ce numéro</string>
+    <!-- XML Code -->
+    <string name="ScannedContact_toolbarTitle">Générez - Contact</string>
+    <string name="More">Plus</string>
+    <string name="CONTACT">CONTACT</string>
+    <string name="AddContact">Ajoutez\nContact</string>
+    <string name="PhoneCall">Appel\nTéléphonique</string>
+    <string name="CopyNumber">Copiez\nNuméro</string>
+    <string name="CopiedSuccessfully">Copié avec\nSuccès</string>
+
+    <!-- Scanned Email --> -------------------------------------------------------------------------
+    <!-- XML Code -->
+    <string name="ScannedEmail_toolbarTitle">Générez - Email</string>
+    <string name="EMAIL">EMAIL</string>
+    <string name="SendEmail">Envoyez\nEmail</string>
+    <string name="CopyEmail">Copiez\nEmail</string>
+    <string name="SearchOnWeb">Rechercher\nSur le Web</string>
+
+    <!-- Scanned Instagram --> -------------------------------------------------------------------------
+    <!-- XML Code -->
+    <string name="ScannedInstagram_toolbarTitle">Générez - Instagram</string>
+    <string name="USERNAME">NOM D\'UTILISATEUR</string>
+    <string name="OpenInstagram">Ouvrez\nInstagram</string>
+    <string name="CopyUsername">Copiez Nom\nd\'Utilisateur</string>
+
+    <!-- Scanned Linkedin --> -------------------------------------------------------------------------
+    <!-- XML Code -->
+    <string name="ScannedLinkedin_toolbarTitle">Scanné - Linkedin</string>
+    <string name="OpenLinkedin">Ouvrez\nLinkedin</string>
+
+    <!-- Scanned Location --> -------------------------------------------------------------------------
+    <!-- XML Code -->
+    <string name="ScannedLocation_toolbarTitle">Scanné - Location</string>
+    <string name="GEO">GÉO</string>
+    <string name="Getdirections">Obtenez\nDirections</string>
+    <string name="Openmap">Ouvrez\nmap</string>
+
+    <!-- Scanned Play Store --> -------------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="PackageName">Nom du Paquet</string>
+    <!-- XML Code -->
+    <string name="ScannedPlayStore_toolbarTitle">Scanné - Play Store</string>
+    <string name="PLAYSTOREURL">URL DU PLAY STORE</string>
+    <string name="OpenPlayStore">Ouvrez\nPlay Store</string>
+    <string name="CopyPackName">Copiez Nom\ndu Paquet</string>
+
+    <!-- Scanned Website --> -----------------------------------------------------------------------
+    <!-- XML Code -->
+    <string name="ScannedWebsite_toolbarTitle">Scanné - Site Web</string>
+    <string name="URL">URL</string>
+    <string name="OpenWebsite">Ouvrez\nSite Web</string>
+    <string name="CopyLink">Copiez\nLien</string>
+
+    <!-- Scanned Wifi --> --------------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="Wifi">Wifi</string>
+    <string name="ConnectingtoWiFinetwork">Connexion au réseau Wi-Fi...</string>
+    <string name="FailedtoconnecttotheWiFinetwork">Échec de la connexion au réseau Wifi</string>
+    <!-- XML Code -->
+    <string name="ScannedWiFi_toolbarTitle">Scanné - WiFi</string>
+    <string name="WIFI">WI-FI</string>
+    <string name="ConnectWifi">Connect\nWifi</string>
+    <string name="CopyPassword">Copiez\nMot de Passe</string>
+
+    <!-- Scanned X --> --------------------------------------------------------------------------
+    <!-- XML Code -->
+    <string name="ScannedX_toolbarTitle">Scanné - X</string>
+    <string name="OpenX">Ouvrez\nX</string>
+
+    <!-- Scanned Youtube --> --------------------------------------------------------------------------
+    <!-- XML Code -->
+    <string name="ScannedYoutube_toolbarTitle">Scanné - Youtube</string>
+    <string name="OpenYoutube">Ouvrez\nYoutube</string>
+
+    <!-- Welcome Activity -->
+    <string name="Pressbackagaintoclosetheapp">Appuyez à nouveau sur la touche retour pour fermer l\'app</string>
+
+    <!-- No Internet Activity -->
+    <string name="Nointernetconnection_title">Pas de Connexion Internet</string>
+    <string name="Nointernetconnection">Connexion Internet non détectée.\nVeuillez vous connecter à Internet pour découvrir la magie des codes QR avec AI QR Magic!</string>
+
+
+</resources>

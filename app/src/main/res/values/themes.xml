@@ -1,0 +1,107 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.XQRPro" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#004FE8</item>
+        <item name="colorPrimaryVariant">#004FE8</item>
+        <item name="android:statusBarColor">#004FE8</item>
+        <!--        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>-->
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.XQRPro" parent="Base.Theme.XQRPro" />
+
+    <!--    The Splash Screen Theme -->
+    <style name="TheSplashScreen_Style" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:statusBarColor">#004FE8</item>
+    </style>
+
+
+    <!--   TabLayout Text Small Case -->
+    <style name="CustomTextAppearanceTab" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="myThemeForGenerateWifi" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#004FE8</item>
+        <item name="colorPrimaryVariant">#004FE8</item>
+        <item name="android:statusBarColor">#004FE8</item>
+        <!--        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>-->
+    </style>
+
+    <style name="myThemeForMainActivity" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#004FE8</item>
+        <item name="colorPrimaryVariant">#004FE8</item>
+        <item name="android:statusBarColor">#004FE8</item>
+        <!--        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>-->
+    </style>
+
+
+    <!-- BottomNavigation View-->
+    <style name="myStyleOfBottomNavigationText_Selected">
+        <item name="android:textColor">#004FE8</item>
+        <item name="android:fontFamily">@font/autoradiographic</item>
+    </style>
+
+    <style name="myStyleOfBottomNavigationText_Unselected">
+        <item name="android:textColor">#797A7F</item>
+        <item name="android:textSize">11dp</item>
+        <item name="android:fontFamily">@font/autoradiographic</item>
+    </style>
+
+    <style name="myColor">
+        <item name="color">#F0F3F8</item>
+    </style>
+
+    <style name="Theme.XQRPro.Fullscreen" parent="Theme.XQRPro">
+        <item name="android:actionBarStyle">@style/Widget.Theme.XQRPro.ActionBar.Fullscreen</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="ThemeOverlay.XQRPro.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
+
+    <!--  Light Dark ____________________________________________________________________  -->
+
+    <!-- Application Background -->
+    <style name="ApplicationBackground">
+        <item name="android:background">#F0F3F8</item>
+    </style>
+
+    <!-- Card View Background -->
+    <style name="CardViewBackground">
+        <item name="cardBackgroundColor">#FFFFFF</item>
+    </style>
+
+    <!-- Card View Text View Color -->
+    <style name="TextCardViewColor">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- Background Of Date_Time TabLayout -->
+    <style name="BackgroundOfDate_TimeTabLayout">
+        <item name="android:backgroundTint">#F0F3F8</item>
+    </style>
+
+    <!-- Fragment _ Generate _______________ -->
+    <style name="Background_FragmentGenerate">
+        <item name="android:background">#F0F3F8</item>
+    </style>
+
+    <style name="CountryCodePicker">
+        <item name="ccp_arrowColor">#000000</item>
+        <item name="ccp_contentColor">#000000</item>
+    </style>
+
+    <!-- Fragment _ Scan _______________ -->
+    <style name="Background_FragmentScan">
+        <item name="android:background">#F0F3F8</item>
+    </style>
+
+</resources>

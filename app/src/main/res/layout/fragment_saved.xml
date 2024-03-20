@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#004FE8">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarIdSaved"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#004FE8">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AIQRMagicSaved_toolbarTitle"
+            android:textColor="#F0F3F8"
+            android:textStyle="bold"
+            android:textSize="18dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <com.google.android.material.tabs.TabLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tablayoutId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbarIdSaved"
+        android:background="@drawable/background_tablayout_custom"
+        app:tabGravity="fill"
+        app:tabIndicatorAnimationMode="elastic"
+        app:tabIndicatorColor="#004FE8"
+        app:tabIndicatorHeight="3dp"
+        app:tabMode="fixed"
+        app:tabTextColor="#878787"
+        app:tabIndicatorFullWidth="false"
+        app:tabSelectedTextColor="#004FE8"
+        app:tabTextAppearance="@style/CustomTextAppearanceTab" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPagerId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tablayoutId"
+        style="@style/ApplicationBackground"/>
+
+</RelativeLayout>

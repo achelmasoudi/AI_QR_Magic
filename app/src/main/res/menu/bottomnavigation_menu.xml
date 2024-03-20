@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/bottomNavigation_Items_GenerateId"
+        android:title="@string/Generate"
+        app:showAsAction="always"
+        android:icon="@drawable/selected_generate"
+        />
+
+    <item android:id="@+id/bottomNavigation_Items_ScanId"
+        android:title="@string/Scan"
+        app:showAsAction="always"
+        android:icon="@drawable/selected_scan"
+        />
+
+    <item android:id="@+id/bottomNavigation_Items_SavedId"
+        android:title="@string/Saved"
+        app:showAsAction="always"
+        android:icon="@drawable/selected_saved"
+        />
+
+    <item android:id="@+id/bottomNavigation_Items_SettingsId"
+        android:title="@string/Settings"
+        app:showAsAction="always"
+        android:icon="@drawable/selected_settings"
+        />
+
+
+</menu>

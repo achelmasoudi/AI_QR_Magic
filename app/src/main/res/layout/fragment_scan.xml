@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/containerCameraId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000">
+
+        <androidx.camera.view.PreviewView
+            android:id="@+id/previewViewIdCamera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="718dp">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/image"
+                android:layout_width="210dp"
+                android:layout_height="210dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/animation_scan" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/fragmentScan_GalerryBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="10dp"
+            android:focusable="true">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:contentDescription="Gallery"
+                android:layout_height="50dp"
+                android:src="@drawable/gallery_icon"
+                />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/fragmentScan_FlashBtn"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardElevation="0dp"
+            app:cardCornerRadius="10dp"
+            android:focusable="true">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageOfFlashId"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="Flash Light"
+                android:src="@drawable/flash_off" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:src="@drawable/zoom_out_icon"
+            android:layout_width="18dp"
+            android:layout_marginLeft="24dp"
+            android:layout_height="18dp"/>
+
+        <SeekBar
+            android:id="@+id/seekBar_ZoomId"
+            android:layout_width="match_parent"
+            android:progressTint="#004FE8"
+            android:contentDescription="Zoom"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:thumb="@drawable/thumbsize_custom_seekbar"
+            android:progressBackgroundTint="#F0F3F8"
+            android:layout_height="30dp"
+            />
+
+        <ImageView
+            android:src="@drawable/zoom_in_icon"
+            android:layout_width="18dp"
+            android:layout_marginRight="24dp"
+            android:layout_height="18dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

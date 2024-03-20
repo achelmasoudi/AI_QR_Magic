@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Background_FragmentGenerate"
+    tools:context=".GenerateYoutube">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarId_GenerateYoutube"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#004FE8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/arrowback_from_generateYoutubeId"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="1dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:selectableItemBackground"
+                app:cardBackgroundColor="#00004FE8"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="Back"
+                    android:src="@drawable/arrow_back" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:text="@string/GenerateYoutube_toolbarTitle"
+                android:textColor="#F0F3F8"
+                android:textStyle="bold"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbarId_GenerateYoutube">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="28dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/youtube_icon" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/generateFragment_YoutubeGenerate_linkId"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginRight="15dp"
+                    app:boxStrokeErrorColor="#FF0000"
+                    app:endIconMode="clear_text"
+                    android:textColorHint="#6D6D6D"
+                    app:boxStrokeColor="@color/text_input_layout_stroke_color_selector"
+                    app:errorTextColor="#FF0000">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/Username_hint"
+                        style="@style/TextCardViewColor"
+                        android:inputType="text" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/generate_Youtube_Btn"
+                    android:contentDescription="@string/Generate_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="95dp"
+                    android:layout_marginRight="15dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginBottom="50dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground">
+                    <LinearLayout
+                        android:background="@drawable/background_of_generate_btn"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:src="@drawable/generate_button"
+                            android:layout_width="26dp"
+                            android:layout_height="26dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="@string/Generate_btn"
+                            android:textAllCaps="false"
+                            android:textColor="#F1F2F6"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:layout_marginLeft="12dp"
+                            android:textSize="18dp"
+                            android:fontFamily="@font/autoradiographic"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <View
+        android:id="@+id/shadowFromViewId_GenerateYoutube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbarId_GenerateYoutube"
+        android:background="#A6000000" />
+
+    <View
+        android:id="@+id/shadowFromViewId_GenerateYoutube2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_below="@id/toolbarId_GenerateYoutube"
+        android:background="#A6000000" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <FrameLayout
+            android:id="@+id/bottomSheetIdFrameLayoutGenerateYoutube"
+            android:layout_width="match_parent"
+            android:layout_height="470dp"
+            android:background="@drawable/bottom_sheet_background"
+            app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/bar_bottom_sheep_icon" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:contentDescription="QR Code"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="30dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:selectableItemBackground"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:id="@+id/imageOfQrCode_YoutubeGenerateId"
+                    android:layout_width="280dp"
+                    android:layout_height="280dp"
+                    android:src="@drawable/ic_launcher_background" />
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="32dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="25dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/saveButtonIdGenerateYoutube"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/save_icon"
+                            app:civ_border_color="#878787"
+                            app:civ_border_width="2dp" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/savedSuccessButtonIdGenerateYoutube"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/success_copy_icon"
+                            android:visibility="gone"
+                            app:civ_border_color="#878787"
+                            app:civ_border_width="2dp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+
+                        <TextView
+                            android:id="@+id/saveTxtViewIdGenerateYoutube"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="@string/Save_btn"
+                            style="@style/TextCardViewColor"
+                            android:textSize="12dp" />
+
+                        <TextView
+                            android:id="@+id/savedSuccessTxtViewIdGenerateYoutube"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="@string/Saved_btn"
+                            style="@style/TextCardViewColor"
+                            android:textSize="12dp"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="25dp"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/shareButtonIdGenerateYoutube"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:src="@drawable/share_icon"
+                        app:civ_border_color="#878787"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="@string/Share_btn"
+                        style="@style/TextCardViewColor"
+                        android:textSize="12dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="25dp"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/downloadButtonIdGenerateYoutube"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/download_icon"
+                        app:civ_border_color="#878787"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="@string/Download_btn"
+                        style="@style/TextCardViewColor"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/customButtonIdGenerateYoutube"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/custom_qrcode_icon"
+                        app:civ_border_color="#878787"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="@string/Custom_btn"
+                        style="@style/TextCardViewColor"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+
+        <FrameLayout
+            android:id="@+id/bottomSheetIdFrameLayoutGenerateYoutube_CustomQrcode"
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:background="@drawable/bottom_sheet_background"
+            app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/bottomsheetbariconId_CustomQrcode"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/bar_bottom_sheep_icon" />
+
+                <TextView
+                    android:id="@+id/generateYoutube_CustomQrcode_TextViewId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bottomsheetbariconId_CustomQrcode"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:text="@string/CustomyourQrCode"
+                    style="@style/TextCardViewColor"
+                    android:textSize="19dp" />
+            </RelativeLayout>
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="110dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center"
+                        android:text="@string/Customcode"
+                        android:textColor="#878787"
+                        android:textSize="15dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+
+                        <RelativeLayout
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="15dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/redColor_GenerateYoutube_code"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/red_color_icon"
+                                app:civ_border_color="#878787"
+                                app:civ_border_width="2dp" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/redColor_GenerateYoutube_code_selected"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/selected_color_icon"
+                                android:visibility="gone" />
+                            />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="15dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/greenColor_GenerateYoutube_code"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/green_color_icon"
+                                app:civ_border_color="#878787"
+                                app:civ_border_width="2dp" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/greenColor_GenerateYoutube_code_selected"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/selected_color_icon"
+                                android:visibility="gone" />
+                            />
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="15dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/blueColor_GenerateYoutube_code"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/blue_color_icon"
+                                app:civ_border_color="#878787"
+                                app:civ_border_width="2dp" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/blueColor_GenerateYoutube_code_selected"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/selected_color_icon"
+                                android:visibility="gone" />
+                            />
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="15dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/brownColor_GenerateYoutube_code"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/brown_color_icon"
+                                app:civ_border_color="#878787"
+                                app:civ_border_width="2dp" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/brownColor_GenerateYoutube_code_selected"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/selected_color_icon"
+                                android:visibility="gone" />
+                            />
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_centerHorizontal="true">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/pinkColor_GenerateYoutube_code"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/pink_color_icon"
+                                app:civ_border_color="#878787"
+                                app:civ_border_width="2dp" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/pinkColor_GenerateYoutube_code_selected"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/selected_color_icon"
+                                android:visibility="gone" />
+                            />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="15dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/purpleColor_GenerateYoutube_code"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:layout_centerHorizontal="true"
+                                android:src="@drawable/purple_color_icon"
+                                app:civ_border_color="#878787"
+                                app:civ_border_width="2dp" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/purpleColor_GenerateYoutube_code_selected"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/selected_color_icon"
+                                android:visibility="gone" />
+                            />
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="15dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/whiteColor_GenerateYoutube_code"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/white_color_icon"
+                                app:civ_border_color="#878787"
+                                app:civ_border_width="2dp" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/whiteColor_GenerateYoutube_code_selected"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/selected_color_icon"
+                                android:visibility="gone" />
+                            />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="15dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/blackColor_GenerateYoutube_code"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/black_color_icon"
+                                app:civ_border_color="#878787"
+                                app:civ_border_width="2dp" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/blackColor_GenerateYoutube_code_selected"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/selected_color_icon"
+                                android:visibility="gone" />
+                            />
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="15dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/yellowColor_GenerateYoutube_code"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/yellow_color_icon"
+                                app:civ_border_color="#878787"
+                                app:civ_border_width="2dp" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/yellowColor_GenerateYoutube_code_selected"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/selected_color_icon"
+                                android:visibility="gone" />
+                            />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_centerHorizontal="true">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/orangeColor_GenerateYoutube_code"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/orange_color_icon"
+                                app:civ_border_color="#878787"
+                                app:civ_border_width="2dp" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/orangeColor_GenerateYoutube_code_selected"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/selected_color_icon"
+                                android:visibility="gone" />
+                            />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center"
+                        android:text="@string/Custombackground"
+                        android:textColor="#878787"
+                        android:textSize="15dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="15dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/redColor_GenerateYoutube_background"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/red_color_icon"
+                                app:civ_border_color="#878787"
+                                app:civ_border_width="2dp" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/redColor_GenerateYoutube_background_selected"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/selected_color_icon"
+                                android:visibility="gone" />
+                            />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="15dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/greenColor_GenerateYoutube_background"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/green_color_icon"
+                                app:civ_border_color="#878787"
+                                app:civ_border_width="2dp" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/greenColor_GenerateYoutube_background_selected"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/selected_color_icon"
+                                android:visibility="gone" />
+                            />
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="15dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/blueColor_GenerateYoutube_background"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/blue_color_icon"
+                                app:civ_border_color="#878787"
+                                app:civ_border_width="2dp" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/blueColor_GenerateYoutube_background_selected"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/selected_color_icon"
+                                android:visibility="gone" />
+                            />
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="15dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/brownColor_GenerateYoutube_background"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/brown_color_icon"
+                                app:civ_border_color="#878787"
+                                app:civ_border_width="2dp" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/brownColor_GenerateYoutube_background_selected"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/selected_color_icon"
+                                android:visibility="gone" />
+                            />
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_centerHorizontal="true">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/pinkColor_GenerateYoutube_background"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/pink_color_icon"
+                                app:civ_border_color="#878787"
+                                app:civ_border_width="2dp" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/pinkColor_GenerateYoutube_background_selected"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/selected_color_icon"
+                                android:visibility="gone" />
+                            />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="15dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/purpleColor_GenerateYoutube_background"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:layout_centerHorizontal="true"
+                                android:src="@drawable/purple_color_icon"
+                                app:civ_border_color="#878787"
+                                app:civ_border_width="2dp" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/purpleColor_GenerateYoutube_background_selected"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/selected_color_icon"
+                                android:visibility="gone" />
+                            />
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="15dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/whiteColor_GenerateYoutube_background"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/white_color_icon"
+                                app:civ_border_color="#878787"
+                                app:civ_border_width="2dp" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/whiteColor_GenerateYoutube_background_selected"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/selected_color_icon"
+                                android:visibility="gone" />
+                            />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="15dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/blackColor_GenerateYoutube_background"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/black_color_icon"
+                                app:civ_border_color="#878787"
+                                app:civ_border_width="2dp" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/blackColor_GenerateYoutube_background_selected"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/selected_color_icon"
+                                android:visibility="gone" />
+                            />
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="15dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/yellowColor_GenerateYoutube_background"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/yellow_color_icon"
+                                app:civ_border_color="#878787"
+                                app:civ_border_width="2dp" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/yellowColor_GenerateYoutube_background_selected"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/selected_color_icon"
+                                android:visibility="gone" />
+                            />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_centerHorizontal="true">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/orangeColor_GenerateYoutube_background"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/orange_color_icon"
+                                app:civ_border_color="#878787"
+                                app:civ_border_width="2dp" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/orangeColor_GenerateYoutube_background_selected"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/selected_color_icon"
+                                android:visibility="gone" />
+                            />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
+
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</RelativeLayout>

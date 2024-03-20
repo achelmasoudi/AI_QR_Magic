@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI QR Magic PRO</string>
+
+
+
+    <!-- Menu --> -------------------------------------------------------------------------------------------------------------
+    <!-- BottomNavigation Menu --> ---------------------------------------------------------------------
+    <string name="Generate">Oluştur</string>
+    <string name="Scan">Tara</string>
+    <string name="Saved">Kaydedilenler</string>
+    <string name="Settings">Ayarlar</string>
+
+    <!-- SavedFragment Menu --> ---------------------------------------------------------------------
+    <string name="Download">İndir</string>
+    <string name="Share">Paylaş</string>
+    <string name="Delete">Sil</string>
+
+
+
+
+    <!-- Fragments --> -------------------------------------------------------------------------------------------------------------
+    <!-- Generate Fragment --> ---------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="GenerateYourWebSite">Web Sitenizi Oluşturun</string>
+<!--  burda yanlis olabilir --> -------------------------------------------------
+    <string name="GenerateYourWiFi">WiFi\'ınızı Oluşturun</string>
+    <string name="GenerateYourContact">İletişiminizi Oluşturun</string>
+    <string name="GenerateYourLocation">Konumunuzu Oluşturun</string>
+    <string name="GenerateYourEmail">E-postanızı Oluşturun</string>
+    <string name="GenerateYourInstagramaccount">Instagram hesabınızı oluşturun</string>
+    <string name="GenerateYourYoutubeaccount">Youtube hesabınızı oluşturun</string>
+    <string name="GenerateYourPlayStoreApplication">Play Store Uygulamanızı Oluşturun</string>
+    <string name="GenerateYourLinkedinaccount">Linkedin hesabınızı oluşturun</string>
+    <string name="GenerateYourXaccount">X hesabınızı oluşturun</string>
+    <!-- XML Code -->
+    <string name="AIQRMagicGenerate_toolbarTitle">AI QR Magic PRO - Oluştur</string>
+    <string name="GenerateyourownQRandShare">Kendi QR\'ınızı Oluşturun ve Paylaşın</string>
+    <string name="Website">Web Sitesi</string>
+    <string name="Location">Konum</string>
+
+
+    <!-- Saved Fragment --> ------------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="Generated">Oluşturuldu</string>
+    <string name="Scanned">Tarandı</string>
+    <!-- XML Code -->
+    <string name="AIQRMagicSaved_toolbarTitle">AI QR Magic PRO - Kaydedilenler</string>
+
+
+    <!-- Scan Fragment --> -------------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="FailedtoreadtheQRcodefromthegallery">Galeriden QR kodu okunamadı</string>
+    <string name="notsupportingthisbarcode">Uygulamamız henüz bu barkod türünü desteklemiyor.\nBu sorunu bize bildirmek için Ayarlar\'daki \' Bir sorun bildirin \' seçeneğine tıklayın.\nAnlayışınız için teşekkür ederiz.</string>
+
+
+    <!-- Settings Fragment --> ---------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="Reviewfailedtostart">Değerlendirme başlatılamadı</string>
+    <string name="Ratingiscompleted">Değerlendirme tamamlandı</string>
+    <string name="recommendationMessage">AI QR Magic PRO Uygulamasına göz atın!\n\nQR kodları oluşturmak, özelleştirmek, taramak ve indirmek için harika bir uygulama. Hemen indirin ve QR kodu ihtiyaçlarınızı basitleştirin.</string>
+    <string name="Suggestions">AI QR Magic PRO - Önerileri</string>
+    <string name="emailMessageSuggestions">Merhaba,\n\nUygulamanız için bazı önerilerim var:\n\n</string>
+    <string name="ReportingIssue">AI QR Magic PRO - Sorun Bildirme</string>
+    <string name="emailMessageReportingIssue">Merhaba,\n\nUygulamanızda aşağıdaki sorunla karşılaştım:\n\n</string>
+    <!-- XML Code -->
+    <string name="AIQRMagicSettings_toolbarTitle">AI QR Magic PRO - Ayarlar</string>
+    <string name="RemoveAds">Reklamları Kaldır</string>
+    <string name="Language">Dil</string>
+    <string name="English">İngilizce</string>
+    <string name="Applicationmode">Uygulama modu</string>
+    <string name="Scannersound">Tarayıcı sesi</string>
+    <string name="Scannervibrate">Tarayıcı titreşimi</string>
+    <string name="Rateourapplication">Uygulamamızı değerlendirin</string>
+    <string name="Recommendourapplication">Uygulamamızı önerin</string>
+    <string name="Giveusyoursuggestionsandcomments">Bize öneri ve görüşlerinizi bildirin</string>
+    <string name="Reportanissue">Bir sorun bildirin</string>
+    <string name="Applicationlanguage">Uygulama dili</string>
+    <string name="Turkish">Türkçe</string>
+    <string name="French">Fransızca</string>
+    <string name="Arabic">Arapça</string>
+    <string name="Light">Aydınlık</string>
+    <string name="Dark">Karanlık</string>
+
+
+
+
+    <!-- Fragments Of TabLayout --> -------------------------------------------------------------------------------------------------------------
+    <!-- Generated Fragment and Scanned Fragment --> --------------------------------------------------------------------
+    <!-- Xml Code -->
+    <string name="Nosaveddatayet">Henüz kaydedilmiş veri yok</string>
+
+
+
+
+    <!-- GeneratedFragment Adapter and ScannedFragment Adapter--> -------------------------------------------------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="DELETE">SİL</string>
+    <string name="Areyousureyouwanttodelete">Silmek istediğinizden emin misiniz?</string>
+    <string name="Cancel">İptal</string>
+    <string name="Successfullydeleted">Başarıyla silindi</string>
+
+
+
+
+    <!-- Generate Contact --> ----------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="PleaseenteryourFullNamePhoneNumber">Lütfen Adınızı Soyadınızı ve Telefon Numaranızı girin !</string>
+    <string name="EnterYourFullName">Adınızı Soyadınızı Girin</string>
+    <string name="EnterYourPhoneNumber">Telefon Numaranızı Girin</string>
+    <string name="PleaseenteryourFullName">Lütfen Adınızı Soyadınızı girin !</string>
+    <string name="PleaseenteryourPhoneNumber">Lütfen Telefon Numaranızı girin !</string>
+    <string name="PleaseenteravalidPhoneNumber">Lütfen geçerli bir Telefon Numarası girin</string>
+    <string name="Contact">İletişim</string>
+    <string name="Savedsuccessfully">Başarıyla kaydedildi</string>
+    <string name="ShareQrCodevia">Qr Kodunuzu şu yolla paylaşın</string>
+    <string name="Pleaseprovidetherequiredpermissions">Lütfen gerekli izinleri sağlayın</string>
+    <string name="Downloadedsuccessfully">Başarıyla indirildi</string>
+    <!-- Xml Code -->
+    <string name="GenerateContact_toolbarTitle">Oluştur - İletişim</string>
+    <string name="FullName_edittextHint">Ad Soyad</string>
+    <string name="Phone_edittextHint">Telefon numaranız</string>
+    <string name="Generate_btn">Oluştur</string>
+    <string name="Save_btn">Kaydet</string>
+    <string name="Saved_btn">Kaydedildi</string>
+    <string name="Share_btn">Paylaş</string>
+    <string name="Download_btn">İndir</string>
+    <string name="Custom_btn">Özelleştir</string>
+    <string name="CustomyourQrCode">Qr Kodunuzu Özelleştirin</string>
+    <string name="Customcode">Kodunuzu özelleştirin</string>
+    <string name="Custombackground">Arka planınızı özelleştirin</string>
+
+    <!-- Generate Email --> ----------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="PleaseenteryourEmail">Lütfen E-postanızı girin !</string>
+    <string name="EnterYourEmail">E-postanızı Girin</string>
+    <string name="PleaseenteravalidEmail">Lütfen geçerli bir E-posta girin</string>
+    <string name="Email">E-posta</string>
+    <!-- XML Code -->
+    <string name="GenerateEmail_toolbarTitle">Oluştur - E-posta</string>
+    <string name="Subject">Konu</string>
+    <string name="Body">Gövde</string>
+
+    <!-- Generate Instagram --> ----------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="PleaseenteryourUsername">Lütfen Kullanıcı Adınızı girin !</string>
+    <string name="EnterYourUsername">Kullanıcı Adınızı Girin</string>
+    <string name="Instagram">Instagram</string>
+    <!-- XML Code -->
+    <string name="GenerateInstagram_toolbarTitle">Oluştur - Instagram</string>
+    <string name="Username_hint">Kullanıcı Adı</string>
+
+    <!-- Generate Linkedin --> ----------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="Linkedin">Linkedin</string>
+    <!-- XML Code -->
+    <string name="GenerateLinkedin_toolbarTitle">Oluştur - Linkedin</string>
+
+    <!-- Generate Location --> ----------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="Youselectedthislocation">Bu konumu seçtiniz!</string>
+    <string name="PleaseentertheLatitudeandLongitude">Lütfen Enlem ve Boylamı girin !</string>
+    <string name="EntertheLatitude">Enlemi girin</string>
+    <string name="EntertheLongitude">Boylamı girin</string>
+    <string name="PleaseentertheLatitude">Lütfen Enlemi giriniz !</string>
+    <string name="PleaseentertheLongitude">Lütfen Boylamı girin !</string>
+    <string name="Geo">Geo</string>
+    <!-- XML Code -->
+    <string name="GenerateLocation_toolbarTitle">Oluştur - Konum</string>
+    <string name="Latitude">Enlem</string>
+    <string name="Longitude">Boylam</string>
+
+    <!-- Generate Play Store --> ----------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="PleaseenteryourLink">Lütfen bağlantınızı girin !</string>
+    <string name="EnterYourLink">Bağlantınızı girin</string>
+    <string name="YoumustputhttpsatthefirstofyourURL">URL\'nizin başına ( https:// ) koymalısınız !</string>
+    <string name="PuthttpsatthefirstofyourURL">URL\'nizin başına ( https:// ) koyun</string>
+    <string name="PleaseenteravalidLink">Lütfen geçerli bir bağlantı girin</string>
+    <string name="PlayStore">Play Store</string>
+    <!-- XML Code -->
+    <string name="GeneratePlayStore_toolbarTitle">Oluştur - Play Store</string>
+    <string name="Link">Bağlantı</string>
+
+    <!-- Generate Website --> ----------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="YoumustputhttpsorhttpatthefirstofyourURL">URL\'nizin başına ( https:// ) veya ( http:// ) koymalısınız !</string>
+    <string name="PuthttpsorhttpatthefirstofyourURL">URL\'nizin başına ( https:// ) veya ( http:// ) koyun</string>
+    <!-- XML Code -->
+    <string name="GenerateWebsite_toolbarTitle">Oluştur - Web Sitesi</string>
+
+    <!-- Generate Wifi --> ----------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="PleaseenteryourNetworkname">Lütfen Ağ adınızı girin !</string>
+    <string name="EnterYourNetworkname">Ağ adınızı girin</string>
+    <string name="NoPassword">Şifresiz</string>
+    <string name="PleaseenteryourNetworkNameandPassword">Lütfen Ağ Adınızı ve Şifrenizi girin !</string>
+    <string name="EnterYourPassword">Şifrenizi Girin</string>
+    <string name="PleaseenteryourPassword">Lütfen Şifrenizi giriniz !</string>
+    <string name="WiFi">Wi-Fi</string>
+    <!-- XML Code -->
+    <string name="GenerateWiFi_toolbarTitle">Oluştur - WiFi</string>
+    <string name="SSID_Networkname">SSID / Ağ adı</string>
+    <string name="WirelessSecurity">Kablosuz Ağ Güvenliği</string>
+    <string name="Password">Şifre</string>
+
+    <!-- Generate X --> ----------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="X">X</string>
+    <!-- XML Code -->
+    <string name="GenerateX_toolbarTitle">Oluştur - X</string>
+
+    <!-- Generate Youtube --> ----------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="Youtube">Youtube</string>
+    <!-- XML Code -->
+    <string name="GenerateYoutube_toolbarTitle">Oluştur - Youtube</string>
+
+
+
+
+    <!-- Scanner Types --> -----------------------------------------------------------------------------------------------------------
+    <!-- In App Browser --> ------------------------------------------------------------------------
+    <!-- XML Code -->
+    <string name="InAppBrowser">Uygulama İçi Tarayıcı</string>
+
+    <!-- Scanned Contact --> -----------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="FullName">Ad Soyad </string>
+    <string name="PhoneNumber">Telefon Numarası </string>
+    <string name="PermissiondeniedCannotaddcontact">İzin reddedildi. Kişi eklenemiyor.</string>
+    <string name="PermissiondeniedCannotmakeaphonecall">İzin reddedildi. Telefon görüşmesi yapılamıyor.</string>
+    <string name="Failedtoaddcontacttophone">Telefona kişi eklenemedi</string>
+    <string name="CopiedText">Kopyalanmış Metin</string>
+    <string name="Copiedsuccessfully">Başarıyla kopyalandı</string>
+    <string name="Failedtocallthisnumber">Bu numarayı arama başarısız oldu</string>
+    <!-- XML Code -->
+    <string name="ScannedContact_toolbarTitle">Tarandı - İletişim</string>
+    <string name="More">Daha Fazla</string>
+    <string name="CONTACT">İLETİŞİM</string>
+    <string name="AddContact">Kişi\nEkle</string>
+    <string name="PhoneCall">Telefon\nEt</string>
+    <string name="CopyNumber">Numarayı\nKopyala</string>
+    <string name="CopiedSuccessfully">Başarıyla\nKopyalandı</string>
+
+    <!-- Scanned Email --> -------------------------------------------------------------------------
+    <!-- XML Code -->
+    <string name="ScannedEmail_toolbarTitle">Tarandı - E-posta</string>
+    <string name="EMAIL">E-POSTA</string>
+    <string name="SendEmail">E-posta\nGönder</string>
+    <string name="CopyEmail">E-postayı\nKopyala</string>
+    <string name="SearchOnWeb">Web\'de\nAra</string>
+
+    <!-- Scanned Instagram --> -------------------------------------------------------------------------
+    <!-- XML Code -->
+    <string name="ScannedInstagram_toolbarTitle">Tarandı - Instagram</string>
+    <string name="USERNAME">KULLANICI ADI</string>
+    <string name="OpenInstagram">Instagram\'ı\nAç</string>
+    <string name="CopyUsername">Kullanıcı Adı\nKopyala</string>
+
+    <!-- Scanned Linkedin --> -------------------------------------------------------------------------
+    <!-- XML Code -->
+    <string name="ScannedLinkedin_toolbarTitle">Tarandı - Linkedin</string>
+    <string name="OpenLinkedin">Linkedin\'i\nAç</string>
+
+    <!-- Scanned Location --> -------------------------------------------------------------------------
+    <!-- XML Code -->
+    <string name="ScannedLocation_toolbarTitle">Tarandı - Konum</string>
+    <string name="GEO">GEO</string>
+    <string name="Getdirections">Yol\nTarifi Al</string>
+    <string name="Openmap">Haritayı\nAç</string>
+
+    <!-- Scanned Play Store --> -------------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="PackageName">Paket Adı</string>
+    <!-- XML Code -->
+    <string name="ScannedPlayStore_toolbarTitle">Tarandı - Play Store</string>
+    <string name="PLAYSTOREURL">PLAY STORE URL\'SI</string>
+    <string name="OpenPlayStore">Play\nStore\'u Aç</string>
+    <string name="CopyPackName">Paket Adını\nKopyala</string>
+
+    <!-- Scanned Website --> -----------------------------------------------------------------------
+    <!-- XML Code -->
+    <string name="ScannedWebsite_toolbarTitle">Tarandı - Web Sitesi</string>
+    <string name="URL">URL</string>
+    <string name="OpenWebsite">Web\nsitesini aç</string>
+    <string name="CopyLink">Bağlantıyı\nKopyala</string>
+
+    <!-- Scanned Wifi --> --------------------------------------------------------------------------
+    <!-- Java Code -->
+    <string name="Wifi">Wifi</string>
+    <string name="ConnectingtoWiFinetwork">Wi-Fi ağına bağlanıyor...</string>
+    <string name="FailedtoconnecttotheWiFinetwork">Wi-Fi ağına bağlanılamadı</string>
+    <!-- XML Code -->
+    <string name="ScannedWiFi_toolbarTitle">Tarandı - WiFi</string>
+    <string name="WIFI">WI-FI</string>
+    <string name="ConnectWifi">Wifi\'ye\nBağlan</string>
+    <string name="CopyPassword">Şifreyi\nKopyala</string>
+
+    <!-- Scanned X --> --------------------------------------------------------------------------
+    <!-- XML Code -->
+    <string name="ScannedX_toolbarTitle">Tarandı - X</string>
+    <string name="OpenX">X\'i\nAç</string>
+
+    <!-- Scanned Youtube --> --------------------------------------------------------------------------
+    <!-- XML Code -->
+    <string name="ScannedYoutube_toolbarTitle">Tarandı - Youtube</string>
+    <string name="OpenYoutube">Youtube\'u\nAç</string>
+
+    <!-- Welcome Activity -->
+    <string name="Pressbackagaintoclosetheapp">Uygulamayı kapatmak için tekrar geri tuşuna basın</string>
+
+    <!-- No Internet Activity -->
+    <string name="Nointernetconnection_title">İnternet Bağlantısı Yok</string>
+    <string name="Nointernetconnection">İnternet bağlantısı algılanamadı.\nAI QR Magic ile QR kodun büyüsünü keşfetmek için lütfen internete bağlanın!</string>
+
+</resources>

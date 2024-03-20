@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/splashscreen_background_custom"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity">
+
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/cardView_WelcomeActivity_AppIcom"
+       android:layout_centerHorizontal="true"
+       app:cardCornerRadius="3dp"
+       app:cardElevation="2dp"
+       app:cardBackgroundColor="#00FFFFFF"
+       android:layout_marginTop="20dp"
+       android:layout_width="80dp"
+       android:layout_height="80dp">
+       <ImageView
+           android:layout_gravity="center"
+           android:src="@drawable/application_icon"
+           android:layout_width="70dp"
+           android:layout_height="70dp"/>
+   </androidx.cardview.widget.CardView>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPagerId"
+        android:clipToPadding="false"
+        android:foregroundGravity="center"
+        android:overScrollMode="never"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <me.relex.circleindicator.CircleIndicator
+        android:layout_alignParentBottom="true"
+        android:id="@+id/circleIndicatorId"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="35dp"
+        app:ci_height="6dp"
+        app:ci_width="6dp"
+        app:ci_drawable="@drawable/diamond_symbol_icon"
+        app:ci_drawable_unselected="@drawable/square_symbol_icon"
+        android:layout_height="18dp"/>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <com.airbnb.lottie.LottieAnimationView
+           android:id="@+id/getStarted_btnId"
+           app:lottie_rawRes="@raw/get_started_btn_animation"
+           app:lottie_autoPlay="true"
+           android:visibility="gone"
+           app:lottie_loop="true"
+           android:layout_centerHorizontal="true"
+           android:layout_alignParentBottom="true"
+           android:layout_width="match_parent"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           android:layout_height="110dp"/>
+       <TextView
+           android:id="@+id/textView_getStarted"
+           android:text="Get Started"
+           android:visibility="gone"
+           android:textColor="#673AB7"
+           android:fontFamily="@font/autoradiographic"
+           android:layout_alignParentBottom="true"
+           android:textSize="20dp"
+           android:textStyle="bold"
+           android:layout_marginBottom="42dp"
+           android:layout_centerHorizontal="true"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+   </RelativeLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/welcome_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_below="@id/cardView_WelcomeActivity_AppIcom"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="center"
+        android:paddingBottom="10dp"
+        android:paddingLeft="138dp"
+        android:visibility="visible"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/welcome_animation" />
+
+</RelativeLayout>
