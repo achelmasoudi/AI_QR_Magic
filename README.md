@@ -1,6 +1,7 @@
 # AI QR Magic - Generate & Scan
 ![AI QR Magic - Feature graphic](https://github.com/achelmasoudi/AI_QR_Magic/assets/154275618/44e7c0ae-3503-4051-ac8e-8b2f359af00d)
 
+<p style="text-align: center;">
 🌟 Welcome to AI QR Magic, where every code tells a unique story.
 
 - Generate, Customize, Scan, Save, and Sownload QR codes effortlessly.
@@ -11,6 +12,7 @@
 - Switch between light and dark modes to set the mood for your QR code journey.
 
 🚀 Ready to explore the QR Universe? Download the app now and let the adventure begin!
+</p>
 
 # Screenshots
 <div style="margin: 15;" >
