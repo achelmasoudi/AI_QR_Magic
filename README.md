@@ -4,14 +4,18 @@
             <br/>
             AI QR Magic - Generate & Scan
             <br/> 
+            <br/> 
             <a href="https://play.google.com/store/apps/details?id=com.aimagic.aiqrmagic" target="_blank">
                 <img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Google Play Store" width="200px" />
             </a>
       </h1>
 </div>
 
+<br/> 
 
 ![AI QR Magic - Feature graphic](https://github.com/achelmasoudi/AI_QR_Magic/assets/154275618/44e7c0ae-3503-4051-ac8e-8b2f359af00d)
+
+<br/> 
 
 <h3>🌟 Welcome to AI QR Magic, where every code tells a unique story.</h3>
   
@@ -24,6 +28,8 @@
 
 <h3>🚀 Ready to explore the QR Universe? Download the app now and let the adventure begin!</h3>
 </div>
+
+<br/> 
 
 # Screenshots
 <div align="center">
