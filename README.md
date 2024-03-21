@@ -1,11 +1,13 @@
-<h1 align="center">AI QR Magic - Generate & Scan</h1>
+<div align="center">
+      <h1> <img src="https://github.com/achelmasoudi/AI_QR_Magic/assets/154275618/7a0d4e00-ada0-4fc5-a3c3-740b46b6ff57" width="100px"><br/>AI QR Magic - Generate & Scan</h1>
+     </div>
 
 <div align="center">
-  <a href="https://play.google.com/store/apps/details?id=your.app.package">
-    <img src="https://freelogopng.com/images/all_img/1664285914google-play-logo-png.png" alt="Google Play Store" style="width: 50px; margin-right: 50px;" />
+  <a href="https://play.google.com/store/apps/details?id=com.aimagic.aiqrmagic" target="_blank">
+    <img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Google Play Store" width="250px" />
   </a>
-  <a href="https://play.google.com/store/apps/details?id=com.aimagic.aiqrmagic" target="_blank" >Download on Google Play</a>
 </div>
+
 
 ![AI QR Magic - Feature graphic](https://github.com/achelmasoudi/AI_QR_Magic/assets/154275618/44e7c0ae-3503-4051-ac8e-8b2f359af00d)
 
