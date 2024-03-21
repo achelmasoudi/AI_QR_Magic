@@ -32,7 +32,8 @@
     <img src="https://github.com/achelmasoudi/AI_QR_Magic/assets/154275618/c0034884-a949-4473-a91d-480403f867ab" width="230px" align="center" />
     <img src="https://github.com/achelmasoudi/AI_QR_Magic/assets/154275618/c9926478-ea78-43a8-aa11-174697a824fe" width="230px" align="right" />
 </div>
-
+<br/>
+<br/>
 <div align="center">
     <img src="https://github.com/achelmasoudi/AI_QR_Magic/assets/154275618/e523a0de-9071-44ce-9d0c-7a6df285392c" width="230px" align="left" />
     <img src="https://github.com/achelmasoudi/AI_QR_Magic/assets/154275618/fb960578-4b06-40b6-8f21-e6df04814e7b" width="230px" align="center" />
