@@ -4,7 +4,6 @@
             <br/>
             AI QR Magic - Generate & Scan
             <br/> 
-            <br/>
             <a href="https://play.google.com/store/apps/details?id=com.aimagic.aiqrmagic" target="_blank">
                 <img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Google Play Store" width="200px" />
             </a>
