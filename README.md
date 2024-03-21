@@ -1,17 +1,19 @@
 <div align="center">
-      <h1> <img src="https://github.com/achelmasoudi/AI_QR_Magic/assets/154275618/7a0d4e00-ada0-4fc5-a3c3-740b46b6ff57" width="100px"><br/>AI QR Magic - Generate & Scan</h1>
-     </div>
-
-<div align="center">
-  <a href="https://play.google.com/store/apps/details?id=com.aimagic.aiqrmagic" target="_blank">
-    <img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Google Play Store" width="250px" />
-  </a>
+      <h1> 
+            <img src="https://github.com/achelmasoudi/AI_QR_Magic/assets/154275618/7a0d4e00-ada0-4fc5-a3c3-740b46b6ff57" width="140px">
+            <br/>
+            AI QR Magic - Generate & Scan
+            <br/> 
+            <br/>
+            <a href="https://play.google.com/store/apps/details?id=com.aimagic.aiqrmagic" target="_blank">
+                <img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Google Play Store" width="250px" />
+            </a>
+      </h1>
 </div>
 
 
 ![AI QR Magic - Feature graphic](https://github.com/achelmasoudi/AI_QR_Magic/assets/154275618/44e7c0ae-3503-4051-ac8e-8b2f359af00d)
 
-<div >
 <h3>🌟 Welcome to AI QR Magic, where every code tells a unique story.</h3>
   
 - Generate, Customize, Scan, Save, and Sownload QR codes effortlessly.
