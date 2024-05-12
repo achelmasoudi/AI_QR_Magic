@@ -19,7 +19,7 @@
 
 <h3>🌟 Welcome to AI QR Magic, where every code tells a unique story.</h3>
   
-- Generate, Customize, Scan, Save, and Sownload QR codes effortlessly.
+- Generate, Customize, Scan, Save, and Download QR codes effortlessly.
 - Create multiple QR code types for various adventures.
 - Customize your codes with a splash of colors.
 - Easily scan QR codes from your camera or gallery.
